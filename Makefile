@@ -16,7 +16,7 @@ GO_TEST_PREFIX ?=
 # e.g. '--push'.
 BUILD_ARGS ?=
 # Architectures to build images for
-BUILD_PLATFORMS ?= linux/amd64,linux/arm64,linux/arm/v7
+BUILD_PLATFORMS ?= linux/amd64#,linux/arm64,linux/arm/v7
 
 # Go additional tag arguments, e.g. 'integration',
 # this is append to the tag arguments required for static builds
@@ -141,7 +141,7 @@ generate: controller-gen  ## Generate API code
 	cd api; $(CONTROLLER_GEN) object:headerFile="../hack/boilerplate.go.txt" paths="./..."
 
 docker-build:  ## Build the Docker image
-	docker buildx build \
+	docker build \
 		--build-arg LIBGIT2_IMG=$(LIBGIT2_IMG) \
 		--build-arg LIBGIT2_TAG=$(LIBGIT2_TAG) \
 		--platform=$(BUILD_PLATFORMS) \

@@ -329,6 +329,8 @@ github.com/blakesmith/ar v0.0.0-20190502131153-809d4375e1fb/go.mod h1:PkYb9DJNAw
 github.com/blang/semver v3.5.1+incompatible h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ=
 github.com/blang/semver v3.5.1+incompatible/go.mod h1:kRBLl5iJ+tD4TcOOxsy/0fnwebNt5EWlYSAyrTnjyyk=
 github.com/blang/semver/v4 v4.0.0/go.mod h1:IbckMUScFkM3pff0VJDNKRiT6TG/YpiHIM2yvyW5YoQ=
+github.com/bnsfrt/fluxcd-pkg/oci v0.10.0 h1:SVtsql8soNi2htU32OgyADB34FK2iQorOriJusZrl/U=
+github.com/bnsfrt/fluxcd-pkg/oci v0.10.0/go.mod h1:L+TiQRy92wdqwb2LuScl7T1M24S7IgnzgjBD3iqoKEE=
 github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b/go.mod h1:H0wQNHz2YrLsuXOZozoeDmnHXkNCRmMW0gwFWDfEZDA=
 github.com/bshuster-repo/logrus-logstash-hook v1.0.0/go.mod h1:zsTqEiSzDgAa/8GZR7E1qaXrhYNDKBYy5/dWPTIflbk=
 github.com/bshuster-repo/logrus-logstash-hook v1.0.2 h1:JYRWo+QGnQdedgshosug9hxpPYTB9oJ1ZZD3fY31alU=
@@ -538,8 +540,6 @@ github.com/fluxcd/pkg/lockedfile v0.1.0 h1:YsYFAkd6wawMCcD74ikadAKXA4s2sukdxrn7w
 github.com/fluxcd/pkg/lockedfile v0.1.0/go.mod h1:EJLan8t9MiOcgTs8+puDjbE6I/KAfHbdvIy9VUgIjm8=
 github.com/fluxcd/pkg/masktoken v0.2.0 h1:HoSPTk4l1fz5Fevs2vVRvZGru33blfMwWSZKsHdfG/0=
 github.com/fluxcd/pkg/masktoken v0.2.0/go.mod h1:EA7GleAHL33kN6kTW06m5R3/Q26IyuGO7Ef/0CtpDI0=
-github.com/fluxcd/pkg/oci v0.8.0 h1:ky7YemolK/5yGVmw2B8SLn1h4ecrnP38DwCaBOCSDFg=
-github.com/fluxcd/pkg/oci v0.8.0/go.mod h1:L+TiQRy92wdqwb2LuScl7T1M24S7IgnzgjBD3iqoKEE=
 github.com/fluxcd/pkg/runtime v0.18.0 h1:3naATapV1y65ZWlsXEfJt66zSQBkJwJ9o/e6gqAF//E=
 github.com/fluxcd/pkg/runtime v0.18.0/go.mod h1:JKTvOFOCz5Un9KxGcBL7Xjt0fcRa10ZItGB0XFv44AY=
 github.com/fluxcd/pkg/sourceignore v0.2.0 h1:ooNbIkfxqNB+KKiY4AU+/DxwzjIKIOWBRK1As5QFlug=

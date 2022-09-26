@@ -7,9 +7,9 @@ ARG LIBGIT2_TAG=v0.2.0
 
 FROM ${LIBGIT2_IMG}:${LIBGIT2_TAG} AS libgit2-libs
 
-FROM --platform=$BUILDPLATFORM tonistiigi/xx:${XX_VERSION} AS xx
+FROM --platform=linux/amd64 tonistiigi/xx:${XX_VERSION} AS xx
 
-FROM --platform=$BUILDPLATFORM golang:${GO_VERSION}-${BASE_VARIANT} as gostable
+FROM --platform=linux/amd64 golang:${GO_VERSION}-${BASE_VARIANT} as gostable
 
 FROM gostable AS go-linux
 

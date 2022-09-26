@@ -4,6 +4,8 @@ go 1.18
 
 replace github.com/fluxcd/source-controller/api => ./api
 
+replace github.com/fluxcd/pkg/oci => github.com/bnsfrt/fluxcd-pkg/oci v0.10.0
+
 // A temporary fork of git2go was created to enable use
 // of libgit2 without thread support to fix:
 // fluxcd/image-automation-controller/#339.
